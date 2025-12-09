@@ -23,7 +23,7 @@ client = genai.Client(api_key=api_key)
 def upload_files_to_gemini():
     uploaded_files = []
     # 'belgeler' klasöründeki tüm .pdf dosyalarını bul
-    pdf_files = glob.glob("belgeler/*.pdf")
+    pdf_files = glob.glob("docs/*.pdf")
     
     if not pdf_files:
         st.error("HATA: 'belgeler' klasöründe hiç PDF bulunamadı! Lütfen klasörü kontrol edin.")
@@ -136,3 +136,4 @@ if prompt := st.chat_input("Sorunuzu buraya yazın..."):
             
         except Exception as e:
             st.error(f"Bir hata oluştu: {e}")
+
