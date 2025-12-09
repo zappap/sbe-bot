@@ -5,4 +5,11 @@ streamlit
 PyPDF2
 python-dotenv
 sentence-transformers
+streamlit
+pdfplumber
+python-docx
+sentence-transformers
+faiss-cpu
+numpy
+openai
 
