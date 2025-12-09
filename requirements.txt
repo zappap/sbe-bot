@@ -4,3 +4,4 @@ dotenv
 streamlit
 PyPDF2
 python-dotenv
+sentence_transformers
