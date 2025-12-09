@@ -123,11 +123,12 @@ if prompt := st.chat_input("Sorunuzu buraya yazın..."):
             )
         )
 
-    # Cevabı Üret
+# Cevabı Üret
     with st.chat_message("assistant"):
         try:
             stream = client.models.generate_content_stream(
-                model="gemini-1.5-flash",
+                # DÜZELTME: Model isminin sonuna '-001' ekledik.
+                model="gemini-1.5-flash-001", 
                 contents=contents_to_send,
                 config=generate_content_config,
             )
@@ -136,4 +137,5 @@ if prompt := st.chat_input("Sorunuzu buraya yazın..."):
             
         except Exception as e:
             st.error(f"Bir hata oluştu: {e}")
+
 
