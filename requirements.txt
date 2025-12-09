@@ -1,9 +1,4 @@
+google.generativeai
+pypdf
+dotenv
 streamlit
-google-genai
-requests
-os
-tempfile
-PyPDF2
-sentence_transformers
-faiss
-numpy
