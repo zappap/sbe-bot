@@ -1,7 +1,6 @@
 import streamlit as st
 from google import genai
 import time
-api_key = st.secrets["AIzaSyAz4EmGoNk3Y5erK7g6zSYI_3Nl93JU_Fw"]
 
 st.set_page_config(page_title="Gemini Chatbot", page_icon="🤖", layout="centered")
 
@@ -69,4 +68,5 @@ for sender, msg in st.session_state.messages:
             """,
             unsafe_allow_html=True
         )
+
 
