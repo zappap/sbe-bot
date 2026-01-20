@@ -161,9 +161,6 @@ if lang == "Türkçe":
     with st.expander("Bu asistan resmî danışmanlık verir mi?"):
         st.write("Hayır. Yalnızca ön bilgilendirme amaçlıdır.")
 
-    with st.expander("Yanlış bilgi alırsam ne yapmalıyım?"):
-        st.write("Resmî işlemler için Enstitü ile iletişime geçiniz.")
-
     with st.expander("Verilerim kaydediliyor mu?"):
         st.write("Bu sayfa yalnızca yönlendirme yapar; sohbet NotebookLM üzerinde gerçekleşir.")
 
@@ -172,9 +169,6 @@ else:
 
     with st.expander("Is this an official advisory service?"):
         st.write("No. It provides preliminary information only.")
-
-    with st.expander("What if the information is incorrect?"):
-        st.write("Please contact the Institute for official confirmation.")
 
     with st.expander("Is my data stored?"):
         st.write("This page only redirects users; conversations occur on NotebookLM.")
