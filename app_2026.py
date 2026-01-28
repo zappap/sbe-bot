@@ -181,11 +181,25 @@ if lang == "Türkçe":
 else:
     st.subheader("📌 Frequently Asked Questions")
 
+    with st.expander("Which documents are used as the basis for generating responses?"):
+        st.write("""
+- DEU Graduate School of Social Sciences – Implementation Guidelines  
+- Dokuz Eylul University Academic Advising Directive  
+  (Student Affairs Department)  
+- Dokuz Eylul University Graduate Education and Training Regulation  
+  (Student Affairs Department)  
+- Graduate Education and Training Regulation  
+- Exemption and Course Adaptation Directive  
+- Associate Degree and Undergraduate Education and Examination Regulation  
+- Regulation on Foreign Higher Education Diplomas and Equivalency  
+- Horizontal Transfer Directive
+""")
+
     with st.expander("Is this an official advisory service?"):
-        st.write("No. It provides preliminary information only.")
+        st.write("No. It is intended for preliminary information only.")
 
     with st.expander("Is my data stored?"):
-        st.write("This page only redirects users; conversations occur on NotebookLM.")
+        st.write("This page only provides redirection; conversations take place on NotebookLM.")
 
 # --------------------------------------------------
 # ALT BİLGİ
