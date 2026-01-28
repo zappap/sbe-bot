@@ -158,6 +158,20 @@ st.divider()
 if lang == "Türkçe":
     st.subheader("📌 Sık Sorulan Sorular")
 
+    with st.expander("Hangi dokümanlar çerçevesinde yanıtlar türetiliyor?"):
+        st.write("""
+- DEÜ Sosyal Bilimler Enstitüsü Uygulama Esasları  
+- Dokuz Eylül Üniversitesi Akademik Danışmanlık Yönergesi  
+  (Öğrenci İşleri Daire Başkanlığı)  
+- Dokuz Eylül Üniversitesi Lisansüstü Eğitim ve Öğretim Yönetmeliği  
+  (Öğrenci İşleri Daire Başkanlığı)  
+- Lisansüstü Eğitim ve Öğretim Yönetmeliği  
+- Muafiyet ve İntibak Yönergesi  
+- Ön Lisans ve Lisans Eğitim-Öğretim ve Sınav Yönetmeliği  
+- Yurtdışı Yükseköğrenim Diplomaları ve Denklik Yönetmeliği  
+- Yatay Geçiş Yönergesi
+""")
+
     with st.expander("Bu asistan resmî danışmanlık verir mi?"):
         st.write("Hayır. Yalnızca ön bilgilendirme amaçlıdır.")
 
