@@ -191,7 +191,7 @@ else:
 - Exemption and Course Adaptation Directive  
 - Associate Degree and Undergraduate Education and Examination Regulation  
 - Regulation on Foreign Higher Education Diplomas and Equivalency  
-- Horizontal Transfer Directive
+- Lateral Transfer Directive
 """)
 
     with st.expander("Is this an official advisory service?"):
