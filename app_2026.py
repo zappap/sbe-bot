@@ -5,8 +5,7 @@ import streamlit as st
 # --------------------------------------------------
 
 NOTEBOOKLM_URL = (
-    "https://notebooklm.google.com/notebook/"
-    "65aa8d8b-7e31-4897-9966-941aabf5656d"
+    "https://tinyurl.com/sbenotebook"
 )
 
 GA_MEASUREMENT_ID = "G-BC2M5DGTV3"  # <-- BURAYA GA4 ID GELECEK
